@@ -1,0 +1,99 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Headings responsive */
+h1 {
+  
+  margin-top: 20px;
+}
+h2 {
+  
+  margin-top: 10px;
+}
+
+/* Button container */
+.btn-container {
+  display: flex;
+  flex-direction: column; /* stack lines */
+  align-items: center;
+  margin-top: 30px;
+}
+
+.line-1,
+.line-2 {
+  display: flex;
+  flex-wrap: wrap; /* allow wrapping on small screens */
+  justify-content: center;
+}
+
+/* Buttons */
+.btn {
+  width: 20vw;
+  height: 20vw;
+  max-width: 200px;
+  max-height: 200px;
+  min-width: 100px;
+  min-height: 100px;
+
+  border-radius: 20%;
+  border: 8px solid black;
+  margin: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Colors */
+.yellow {
+  background-color: #f99b45;
+}
+.red {
+  background-color: #d95980;
+}
+.blue {
+  background-color: rgb(194, 222, 138);
+}
+.purple {
+  background-color: #819ff9;
+}
+
+/* Flash effects */
+.flash {
+  background-color: white !important;
+  box-shadow: 0 0 20px #fff;
+  transition: background-color 0.2s;
+}
+.userFlash {
+  background-color: green !important;
+  transition: background-color 0.2s;
+}
+
+/* 📱 Mobile optimization */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 6vw;
+  }
+  h2 {
+    font-size: 4vw;
+  }
+  .btn {
+    width: 35vw;
+    height: 35vw;
+    margin: 0.5rem;
+  }
+}
+
+/* 💻 Tablets */
+@media (max-width: 900px) {
+  .btn {
+    width: 25vw;
+    height: 25vw;
+  }
+}
