@@ -18,9 +18,9 @@ Built using pure HTML, CSS, and JavaScript — no frameworks
 
 🧠 Technologies Used
 
-HTML5 – for game structure
-CSS3 – for layout, colors, and animations
-JavaScript (ES6) – for game logic and interactivity
+HTML – for game structure
+CSS – for layout, colors, and animations
+JavaScript – for game logic and interactivity
 
 🎯 How to Play
 Press any key (or click a button) to start the game
